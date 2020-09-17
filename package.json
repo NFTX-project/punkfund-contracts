@@ -1,0 +1,22 @@
+{
+  "name": "punkfi-contracts",
+  "version": "0.0.1",
+  "description": "PunkFi smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "alexgausman",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.4.6",
+    "@nomiclabs/buidler-ethers": "^2.0.0",
+    "@nomiclabs/buidler-waffle": "^2.1.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.1.0",
+    "ethers": "^5.0.13"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0"
+  }
+}
