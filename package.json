@@ -1,7 +1,7 @@
 {
-  "name": "punkfi-contracts",
+  "name": "punkfund-contracts",
   "version": "0.0.1",
-  "description": "PunkFi smart contracts",
+  "description": "PunkFund smart contracts",
   "main": "index.js",
   "scripts": {
     "test": "test"
@@ -17,6 +17,7 @@
     "ethers": "^5.0.13"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^3.2.0"
+    "@openzeppelin/contracts": "^3.2.0",
+    "dotenv": "^8.2.0"
   }
 }

@@ -2,8 +2,6 @@
 
 pragma solidity >=0.6.0 <0.7.0;
 
-import "@nomiclabs/buidler/console.sol";
-
 contract CryptoPunksMarket {
     address owner;
 

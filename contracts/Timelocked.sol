@@ -2,8 +2,8 @@
 
 pragma solidity >=0.6.0 <0.7.0;
 
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/math/SafeMath.sol";
+import "./Ownable.sol";
+import "./SafeMath.sol";
 
 contract Timelocked is Ownable {
     using SafeMath for uint256;

@@ -2,14 +2,14 @@
 
 pragma solidity >=0.6.0 <0.7.0;
 
-import "@openzeppelin/contracts/math/SafeMath.sol";
-import "@openzeppelin/contracts/utils/EnumerableSet.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "./SafeMath.sol";
+import "./EnumerableSet.sol";
+import "./IERC20.sol";
 
 import "./ICryptoPunksMarket.sol";
 import "./Pausable.sol";
 
-contract PunkBank is Pausable {
+contract PunkFund is Pausable {
     using SafeMath for uint256;
     using EnumerableSet for EnumerableSet.UintSet;
 
